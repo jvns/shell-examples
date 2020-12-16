@@ -1,6 +1,6 @@
 ### bash examples
 
-This set of examples goes with the "Bite Size Bash" zine (coming out soon!) from https://wizardzines.com
+This set of examples goes with zine [Bite Size Bash](https://wizardzines.com/zines/bite-size-bash). There's approximately one file per page of the zine.
 
 ### how to run the examples
 
