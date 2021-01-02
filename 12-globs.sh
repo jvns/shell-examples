@@ -42,13 +42,13 @@ echo "
 
 
 echo "let's try it without the quotes"
-grep 2* files/lines.txt
+grep 22* files/lines.txt
 echo "no results! this is because it's running this:"
-echo grep 2* files/lines.txt
+echo grep 22* files/lines.txt
 
 echo ''
 echo "now let's try it with the quotes"
-echo "$ grep '2*' files/lines.txt"
-grep '2*' files/lines.txt
-# the regular expression '2*' actually matches any string, so it matches all
-# lines in files/lines.txt
+echo "$ grep '22*' files/lines.txt"
+grep '22*' files/lines.txt
+# the regular expression '22*' is kind of a silly one, this is
+# similar to running `grep 2 files/lines.txt`
